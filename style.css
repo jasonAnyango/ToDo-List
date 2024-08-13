@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(
+        135deg,
+        #c33232,
+        #bb5e2c
+    );
+}
+
+.todo
+{
+    margin: 100px auto 200px;
+    background-color: #fff;
+    max-width: 540px;
+    padding: 20px;
+    border-radius: 15px;
+}
