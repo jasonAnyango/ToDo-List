@@ -12,9 +12,9 @@
     min-height: 100vh;
     padding: 10px;
     background: linear-gradient(
-        135deg,
-        #c33232,
-        #bb5e2c
+        90deg,
+        #ee6c6c,
+        #ca1800
     );
 }
 
@@ -25,4 +25,50 @@
     max-width: 540px;
     padding: 20px;
     border-radius: 15px;
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.head h2
+{
+    margin-right: 10px;
+}
+
+.level
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #d3d3d3;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.level input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 15px;
+    font-size: 16px;
+}
+
+.level button
+{
+    border: none;
+    outline: none;
+    background-color: #bd0000;
+    color: #fff;
+    padding: 16px 50px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
 }
