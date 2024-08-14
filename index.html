@@ -10,14 +10,18 @@
     <div class = "container">
         <div class="todo">
             <div class = "head">
-                <h2>To Do List</h2>
+                <h2>Jason's To-Do List</h2>
                 <img src="/ToDo-List/images/icon.png">
             </div>
             <div class = "level">
                 <input type = "text" id = "input" placeholder="Add new item">
-                <button>Add</button>
+                <button onclick = "addTask()">Add</button>
             </div>
+            <ul id = "list-container">
+            </ul>
         </div>
     </div>
+    <!-- Link the javascript file -->
+    <script src = "script.js"></script>
 </body>
 </html>
